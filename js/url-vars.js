@@ -35,7 +35,7 @@ var links = document.getElementsByTagName('a');
 console.log(links);
 
 for (var i = 0; i < links.length; i++) {
-  var link = "https://track.ultravpn.com/5d02892a4faea/click/" + click_id + "/" + zone;
+  var link = "https://track.ultravpn.com/5d02892a4faea/click/" + zone + "/" + click_id + "/yts";
   links[i].setAttribute('href', link)
 }
 
